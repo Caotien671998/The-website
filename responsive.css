@@ -1,0 +1,57 @@
+@media (max-width: 767px){
+    .header__download{
+        display: none;
+    }
+    .header__download-btn-seccess {
+        display: block;
+    }
+    .header__take{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        right: -10px;
+        top:279px;
+        border-radius: 0;
+    }
+    .introduce__app,
+    .introduce__img, 
+    .clarity__img,
+    .clarity__app{
+        display: block;
+        float: left;
+        width: 100%;
+
+    }
+    .clarity__app {
+        padding: 5px;
+    }
+    .grid-item{
+        padding: 4px;
+        font-size: 1.2rem;
+    }
+    .section__basic {
+        width: 100%;
+    }
+    .section__premium {
+        width: 100%;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .header__download{
+        display: none;
+    }
+    .header__download-btn-seccess {
+        display: block;
+    }
+    .header__take{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        right: -10px;
+        border-radius: 0;
+    }
+    .introduce__img img{
+        overflow: hidden;
+    }
+}
